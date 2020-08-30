@@ -1,0 +1,350 @@
+
+body{ 
+    font-family: 'Kanit', sans-serif;
+}
+@media only screen and (max-width:1400px) {
+	html {
+		font-size: 11px;
+    }
+    section{
+        min-height: 660px;
+    }
+    #home{
+        padding-top: 25em;
+    }
+    #about{
+        padding-top: 17em;
+    }
+    #experience{
+        padding-top: 5em;
+        padding-bottom: 2em;
+    }
+    #projects{
+        padding-top: 6em;
+        padding-bottom: 2em;
+    }
+    #contact{
+        padding-top: 15em;
+    }
+    .right{
+        text-align: right;
+        border-right: 1px solid #054b47;;
+    }
+    .about-me{
+        font-size: 1.7em;
+    }
+    .social{
+        width: 35px;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    #social{
+        margin-top: 13em;
+    }
+}
+@media only screen and (max-width:768px) {
+	html {
+		font-size: 8px;
+    }
+    #home{
+        padding-top: 32em;
+    }
+    #about{
+        padding-top: 20em;
+    }
+    .right{
+        border-right: 0px solid #054b47;;
+    }
+    #experience{
+        padding-top: 5em;
+        padding-bottom: 2em;
+    }
+    #projects{
+        padding-top: 6em;
+        padding-bottom: 2em;
+    }
+    #contact{
+        padding-top: 25em;
+    }
+    .right{
+        text-align: left;
+    }
+    .about-me{
+        font-size: 2em;
+    }
+    #social{
+        margin-top: 20em;
+    }
+    .social{
+        width: 35px;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
+@media only screen and (max-width:600px) {
+	html {
+		font-size: 7px;
+    }
+    #home{
+        padding-top: 35em;
+    }
+    #about{
+        padding-top: 24em;
+    }
+    #experience{
+        padding-top: 7em;
+        padding-bottom: 2em;
+    }
+    #projects{
+        padding-top: 7em;
+        padding-bottom: 2em;
+    }
+    .right{
+        text-align: left;
+    }
+    #contact{
+        padding-top: 30em;
+    }
+    .about-me{
+        font-size: 2em;
+    }
+    #social{
+        margin-top: 26em;
+    }
+    .social{
+        width: 30px;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+}
+
+.navbar{
+    font-size: 1.6em;
+    color:#FCA6A9;
+}
+.navbar-brand{
+    font-size: 1.4em;
+}
+.logo{
+    margin-left: 1.1em;
+    width: 1.9em;
+    transition: transform .2s;
+}
+.logo:hover{
+    transform: scale(1.3);
+}
+#tot{
+    color:#FCA6A9;
+    margin-left: 1.3em;
+    transition: transform .2s;
+}
+#tot:hover{
+    color: #054b47;
+    scale: 2em;
+    transform: scale(1.1);
+}
+
+
+
+
+#home{
+    background-image: url("../img/bg.jpg");
+    text-align: center; 
+    width: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover
+}
+.p{
+    font-size: 1.5em;
+    color: #054b47;
+    font-weight: 800;
+}
+.name{
+    font-family: 'Sacramento', cursive;
+    font-weight: bolder;
+    font-size: 6em;
+    color: #054b47;
+    cursor: default;
+}
+.btn {
+	
+    width: 170px;
+    margin-top: 27px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid #FCA6A9;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #054b47;
+  }
+  .btn:hover {
+      box-shadow: 0 0 10px 0 #FCA6A9 inset, 0 0 20px 2px #FCA6A9;
+      border: 3px solid #FCA6A9;
+    }
+hr{
+    width: 50%;
+}
+
+
+
+
+#about{
+    text-align: center;
+}
+.pp{
+    text-align: center;
+}
+.profile-pic{
+    margin-bottom: 2em;
+    width: 10em;
+}
+.about-me{
+    font-weight: 600;
+    color: #054b47;
+    text-align: left;
+}
+.hi{
+    color: #054b47;
+    font-family: 'Sacramento', cursive;
+    font-weight: 900;
+    font-size: 5em;
+    text-align: center;
+}
+
+
+
+
+#experience{
+    
+    text-align: center; 
+    background-color: #598C87;
+}
+.exh1{
+    font-family: 'Sacramento', cursive;
+    font-weight: 800;
+    font-size: 6em;
+    color: #054b47;
+}
+.exp{
+    font-family: 'Sacramento', cursive;
+    font-weight: 800;
+    font-size: 2em;
+    color:#fdafaf;
+    margin-top: 3px;
+}
+.Org{
+    font-size: large;
+    font-weight: 600;
+}
+.des{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.date{
+    font-size: medium;
+    font-weight: 400;
+}
+.about-org{
+    font-size: medium;
+    font-weight: 400;
+}
+.left{
+    text-align:left;
+}
+.group{
+    margin-bottom: 2.5em;
+}
+
+
+
+#projects{
+    background-color: #FCA6A9;
+}
+.project{
+    font-family: 'Sacramento', cursive;
+    font-weight: 800;
+    font-size: 6em;
+    color: #054b47;
+    text-align: center;
+}
+.col-lg-6{
+    text-align: center;
+    
+}
+.image{
+    margin-top:2em;
+    height: 35em;
+}
+.project-pic1{
+    width: 40em;
+}
+.project-pic2{
+    width: 34em;
+}
+.project-pic3{
+    width: 44em;
+}
+.project-pic4{
+    width: 36em;
+}
+.title{
+    font-weight: 600;
+    font-size: 2em;
+    color: #054b47;
+    text-align: center;
+}
+.about-pro{
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+
+#contact{
+    background-color: #024A46;
+    text-align: center;
+}
+.contact{
+    font-family: 'Sacramento', cursive;
+    font-weight: 800;
+    font-size: 6em;
+    color:#FCA6A9;
+}
+.love{
+    font-weight: 600;
+    font-size: 3em;
+}
+.feel{
+    font-weight: 400;
+    font-size: 2em;
+}
+.btn1 {
+	
+    width: 170px;
+    margin-top: 4em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid #FCA6A9;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #FCA6A9;
+  }
+  .btn1:hover {
+      box-shadow: 0 0 10px 0 #FCA6A9 inset, 0 0 20px 2px #FCA6A9;
+      border: 3px solid #FCA6A9;
+    }
